@@ -1,0 +1,13 @@
+Update submodules
+
+1.
+cd ./submodules
+-> git fetch
+-> git merge origin/main
+
+2.
+git submodules Update --remote
+
+Commit submodules
+
+git commit -am "Update submodules"
