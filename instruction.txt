@@ -83,8 +83,8 @@ git commit -am 'Update Submodule'
 ## Publishing Submodule Changes
 ```bash
 git diff
-git push --recurse-submodules=check
-git config push.recurseSubmodules check
-git push
-git push --recurse-submodules=on-demand
+git push --recurse-submodules=check         -> Error
+git config push.recurseSubmodules check     -> Ok
+git push                                    -> Error
+git push --recurse-submodules=on-demand     -> Ok
 ```
