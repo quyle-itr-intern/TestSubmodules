@@ -6,7 +6,7 @@ cd ./submodules
 -> git merge origin/main
 
 2.
-git submodules update --remote
+git submodule update --remote
 
 Commit submodules
 
